@@ -133,7 +133,7 @@ public class Main extends Event {
                else if(ans.equals(searchtit))
             	   list.get(u).display();
                else if(ans.equals(searchfootfall.toString()))
-            	   list.get(u).display();break;
+            	   list.get(u).display();
                
             	  
                }break;
