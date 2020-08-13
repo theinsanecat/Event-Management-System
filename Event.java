@@ -26,7 +26,9 @@ public void setDate(String date)
 }
 public void setArtist(String[] artist)
 {
-	this.artist=artist;
+	this.artist = new String[artist.length];
+        System.arraycopy(artist, 0, this.artist, 0, artist.length);
+	//this.artist=artist;
 }
 public void setNo_of_people(int no_of_people)
 {
@@ -46,7 +48,10 @@ public String getDate()
 }
 public String[] getArtist()
 {
-	return this.artist;
+	String[] copy = new String[this.artist.length];
+        System.arraycopy(this.artist, 0, copy, 0, copy.length);
+        return copy;
+	//return this.artist;
 }
 public int getNo_of_people()
 {
