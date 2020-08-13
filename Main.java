@@ -8,7 +8,7 @@ public class Main extends Event {
 	{
 		
 		Scanner sc = new Scanner(System.in);
-		String[] array=new String[5];
+		//String[] array=new String[5];
 		
 		ArrayList<Event> list = new ArrayList<Event>();
 		
@@ -62,7 +62,8 @@ public class Main extends Event {
         	
         	System.out.println("ID:"+list.get(u).getId()+"\nTitle:"+list.get(u).getTitle()+"\nFootfall:"+list.get(u).getNo_of_people()+"\nDate:"+list.get(u).getDate());
         	System.out.println("Artist/Artist:");
-        	for(String ele:array)
+		String[] arr=list.get(u).getArtist();
+        	for(String ele:arr)
         	{
         	System.out.println(ele);
         	}
