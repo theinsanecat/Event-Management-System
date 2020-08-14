@@ -68,14 +68,18 @@ public void display()
 	
 }
 
-void displayData(ArrayList<Event> list)
+public void displayData(ArrayList<Event> list)
 { 
   System.out.println("************Event Detail************"); 
-  for(Event et: list )
+  for(int u=0;u<list.size();u++)
   {
-	  System.out.println("Event Id :"+et.id+"\nTitle : "+et.title+"\nDate : "+et.date+"\nArtist : "+et.artist+"\nFootfall : "+et.no_of_people);
-		 
-  }
+	  System.out.println("ID:"+list.get(u).getId()+"\nTitle:"+list.get(u).getTitle()+"\nFootfall:"+list.get(u).getNo_of_people()+"\nDate:"+list.get(u).getDate());
+  	  System.out.println("Artist/Artist:");
+  	  String[] arr=list.get(u).getArtist();
+	
+	  for(String ele:arr)
+		  System.out.println(ele);
+  } 
 
 }
 }
