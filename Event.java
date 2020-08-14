@@ -3,7 +3,7 @@ import java.util.*;
 public class Event implements Event_Management_Interface {
 	private String title,date;
 	private int id,no_of_people;
-	private String[] artist=new String[5];
+	private String[] artist;
 	
 	public Event()
 	{
