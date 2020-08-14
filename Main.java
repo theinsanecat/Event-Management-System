@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Main extends Event {
+public class Main {
 	 
 
 	public static void main(String[] args)
