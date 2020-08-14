@@ -15,6 +15,7 @@ public class Main extends Event {
 		
 		while(true)
 		{
+		System.out.println("****************************************************************");	
 		System.out.println("Enter the choice:");
 		System.out.println("1) Enter an event"+"\n2) List all events" + "\n3) Update an event" + "\n4) Delete an event" + "\n5) Search event");
         int choice=sc.nextInt();
