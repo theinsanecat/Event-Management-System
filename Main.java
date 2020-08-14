@@ -60,14 +60,7 @@ public class Main extends Event {
         
         case 2: for(int u=0;u<list.size();u++)
         {
-        	
-        	System.out.println("ID:"+list.get(u).getId()+"\nTitle:"+list.get(u).getTitle()+"\nFootfall:"+list.get(u).getNo_of_people()+"\nDate:"+list.get(u).getDate());
-        	System.out.println("Artist/Artist:");
-		String[] arr=list.get(u).getArtist();
-        	for(String ele:arr)
-        	{
-        	System.out.println(ele);
-        	}
+               list.get(u).displayData(list);
         }
         	break;
         
