@@ -64,7 +64,7 @@ public void display()
 {
 	//Retrievedata rdata= new Retrievedata();
 	//ArrayList<Event> listeve= rdata.addData();
-	System.out.println("Event Id :"+this.id+"\nTitle : "+this.title+"\nDate : "+this.date+"\nArtist : "+this.artist+"\nFootfall : "+this.no_of_people);
+	System.out.println("Event Id :"+this.id+"\nTitle : "+this.title+"\nDate : "+this.date+"\nFootfall : "+this.no_of_people);
 	
 }
 
